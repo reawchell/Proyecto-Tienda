@@ -1,0 +1,84 @@
+
+.barra__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.color{
+    color:orange;
+}
+.opciones{
+    position: fixed;
+    z-index: 1;
+    font-size: 20px;
+}
+.barra__menu--horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 10px;
+    gap:10px;
+    font-size: 15px;
+}
+.preto{
+    font-weight: bold;
+}
+.cinza{
+    color: rgb(225, 220, 220);
+}
+.azul{
+    color: rgb(225, 220, 220);
+}
+
+.mi-tienda{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.barra__menu--buscador {
+    color: black;
+    margin-top: 1px;
+    height: 100px;
+    text-align: end;
+    display: flex;
+    justify-content: right;
+    padding-right: 175px;
+    font-size: 15px;
+    padding-top: 2px;
+    gap: 10px;
+    flex-direction: row;
+   
+  /*   text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* padding-right: 200px; */
+    /* font-size: 15000px;
+    color: red */ 
+}
+
+ .barra__menu--inferior{
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        justify-content: right;
+        padding-right: 10px;
+        padding-top: 2px;
+        gap: 5px;  
+ }
+    
+
+.divisor__header{
+    height: 1px;
+    background-color: black;
+    width: 12%;
+    margin: 15px 0% 0px 10%; 
+    height: 3px;
+    margin-right: 10%;
+    margin-left: 88%; 
+    margin-top: -3%;
+   
+}

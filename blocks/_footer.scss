@@ -1,0 +1,49 @@
+.separador{
+   text-align:center; 
+    height: 1px;
+     background-color:red;
+    width: 100%;
+    margin: 15px 0% 5px 10%; 
+   height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;  
+    
+}
+
+.footer__superior, .footer__inferior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3%;
+ }
+.barra__menu--buscador{
+    color: black;
+
+} 
+.separador{
+    text-align:center;
+    height: 1px;
+    background-color:gray;
+    width: 2250px;
+    margin: 15px 0% 5px 10%;
+    height: 2px;
+    
+}
+.footer__superior, .color__footer, .footer__inferior{
+color: rgb(119, 115, 115);
+}
+.ultimos__espacios{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.footer__superior img{
+    height: 16px;
+    width: 16px;
+}
+.footer__superior{
+    display: flex;
+    align-items: flex-start;
+}
+.footer__inferior{
+    text-align: center;
+};
